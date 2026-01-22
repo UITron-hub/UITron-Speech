@@ -18,4 +18,4 @@ This repository is the official implementation of UITron-Speech: Towards Automat
 
 ## 🤗 Acknowledgements
 
-Our codebase builds on [ms-swift](https://github.com/modelscope/ms-swift) and [Qwen2.5-Omni](https://github.com/QwenLM/Qwen2.5-Omni). Thanks the authors for sharing their awesome codebases!
+Our codebase builds on [ms-swift](https://github.com/modelscope/ms-swift) and [Qwen2.5-Omni](https://github.com/QwenLM/Qwen2.5-Omni). We also utilize [ChatTTS](https://github.com/2noise/ChatTTS) to generate speech instruction data for training.  Thanks the authors for sharing their awesome codebases!

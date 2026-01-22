@@ -22,8 +22,13 @@ This repository is the official implementation of UITron-Speech: Towards Automat
 ## 🎙️ Speech Dataset 
 ChatTTS synthesizes speech for the Aguvis and OS-Atlas training sets, as well as the evaluation benchmarks (ScreenSpot, AndroidControl, GUI Odyssey). The example below illustrates the conversion of raw text instructions from Aguvis.
 
+```bash
+cd uitron-speech-data
+```
 
-> ```python -m ChatTTS.pipline.aguvis_tts.py```
+``` python
+python -m pipline.aguvis_tts.py
+```
 
 This script processes the original metadata to assign unique IDs to text prompts and exports an updated JSON file. It then utilizes ChatTTS to synthesize these prompts into speech, saving the audio files named with their corresponding IDs.
 
